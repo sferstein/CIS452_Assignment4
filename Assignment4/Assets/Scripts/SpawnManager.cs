@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Sam Ferstein
+ * SpawnManager.cs
+ * Assignment 4
+ * This class spawns the enemies.
+ */
+
 public class SpawnManager : MonoBehaviour
 {
     public bool isGameActive = false;

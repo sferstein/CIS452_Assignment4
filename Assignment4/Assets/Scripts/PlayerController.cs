@@ -4,19 +4,20 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Sam Ferstein
+ * PlayerController.cs
+ * Assignment 4
+ * This is the class that controls the player.
+ */
+
 [RequireComponent (typeof (CharacterController))]
 public class PlayerController : MonoBehaviour
 {
     // Note: For some reason adding a rigidbody causes the movement of the player to not work as well if there is no rigidbody.
     // It may be better to disable the rigidbody for testing.
 
-    public Character character;
     public PlayerController playerController;
-    public Material[] materials;
-    public GameObject barrel;
-    public GameObject playerColor;
-    private MeshRenderer meshRenderer;
-    public GameObject winScreen;
     public GameObject loseScreen;
     public bool isGameLost = false;
     public float playerHealth;

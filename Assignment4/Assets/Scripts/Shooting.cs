@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * Shooting.cs
+ * Assignment 4
+ * This class helps makes the bullets in the game move.
+ */
+
 public class Shooting : MonoBehaviour
 {
     public float speed;
     public float maxDistance;
-    //private PlayerController playerController;
-
-    //void Start()
-    //{
-    //    playerController = GetComponent<PlayerController>();
-    //}
 
     // Update is called once per frame
     void Update()

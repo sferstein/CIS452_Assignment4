@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * ColorGreen.cs
+ * Assignment 4
+ * This is one of the concrete components that directly effects the character's stats.
+ */
+
 public class ColorGreen : Character
 {
     public ColorGreen()

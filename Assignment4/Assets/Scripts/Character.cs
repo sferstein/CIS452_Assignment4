@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * Character.cs
+ * Assignment 4
+ * This is the component class that will be used by the other classes for the Observer pattern.
+ */
+
 public abstract class Character
 {
     public string charDescription;

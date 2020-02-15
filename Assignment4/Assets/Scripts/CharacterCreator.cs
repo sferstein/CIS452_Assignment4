@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * CharacterCreator.cs
+ * Assignment 4
+ * This is the concrete component that implements the component character class.
+ */
+
 public class CharacterCreator : MonoBehaviour
 {
     public Character character;
@@ -9,8 +16,6 @@ public class CharacterCreator : MonoBehaviour
     public GameObject barrel;
     public GameObject playerColor;
     public Material[] materials;
-    //public float playerHealth;
-    //public float speed = 5;
 
     public void SetColor(string newCharacter)
     {

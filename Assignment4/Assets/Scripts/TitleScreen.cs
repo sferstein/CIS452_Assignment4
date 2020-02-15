@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Sam Ferstein
+ * TitleScreen.cs
+ * Assignment 4
+ * This class controls the title screen and the buttons that make it progress.
+ */
+
 public class TitleScreen : MonoBehaviour
 {
     public GameObject tutorialScreen;

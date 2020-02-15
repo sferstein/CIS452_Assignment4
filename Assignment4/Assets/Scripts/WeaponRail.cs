@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * WeaponRail.cs
+ * Assignment 4
+ * This is one of the concrete decorators used in the observer pattern.
+ */
+
 public class WeaponRail : WeaponDecorator
 {
     Character character;

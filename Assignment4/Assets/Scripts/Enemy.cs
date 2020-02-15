@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Sam Ferstein
+ * Enemy.cs
+ * Assignment 4
+ * This is the enemy class used to have the enemy move and shoot.
+ */
+
 public class Enemy : MonoBehaviour
 {
     public float speed;
